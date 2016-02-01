@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
  
- root to: 'articles#index'
+ root to: 'drinks#index'
  resources :articles do
    resources :comments
  end
